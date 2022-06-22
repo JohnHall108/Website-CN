@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+*{
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+body{
+    background-image:url("lotr\ riders.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    font-family: 'Quintessential', cursive;    
+}
+#nav{
+    color:aliceblue;
+    background-color: rgba(73, 129, 233, 0.5);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+#nav a{
+    color: rgb(210, 216, 229);
+    font-family: 'Quintessential', cursive;
+    font-size: larger;
+    font-weight: bold;
+}
+#nav a:hover{
+    color: lightskyblue;
+}
+.Heading{
+    text-align: center;
+    color: rgb(73, 129, 233);
+    font-family: 'Quintessential', cursive;
+    font-size: 70px;
+}
+.SubHeading{
+    color: rgb(108, 150, 227);
+    font-family: 'Quintessential', cursive;
+    font-size: 45px;
+    text-align: center
+}
+.para1{
+    text-align: justify;
+    color: rgb(164, 187, 229);    
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+.SubHeading2{
+    color: rgb(108, 150, 227);
+    font-family: 'Quintessential', cursive;
+    font-size: 45px;
+    text-align: center
+}
+.para2{
+    text-align: justify;
+    color: rgb(164, 187, 229);    
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+img{
+    width:35%;
+    height: auto;
+    border-radius: 25px;
+    float: left;
+}
+
+.para3{
+    text-align: justify;
+    color: rgb(164, 187, 229);    
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+.quote{
+    font-weight: lighter;
+    font-family: 'Redressed', cursive;
+    text-align: justify;
+    color: rgb(210, 216, 229);    
+    font-size: 27px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+.ref{
+    font-weight: lighter;
+    font-family: 'Redressed', cursive;
+    text-align: right;
+    color: rgb(210, 216, 229);    
+    font-size: 18px;
+}
+
+p{
+    text-align: justify;
+    color: rgb(164, 187, 229);    
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+h3{
+    text-align: left;
+    color:rgb(210, 216,229) 
+    font-size: 25px;
+}
